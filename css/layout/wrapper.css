@@ -1,0 +1,19 @@
+.overall-wrapper {
+    background-color: #e2e1df;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 1200px) {
+    .overall-wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}    
+

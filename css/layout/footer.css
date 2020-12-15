@@ -1,0 +1,27 @@
+
+.footer {
+    background-color: white;
+}
+
+.footer-logo {
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.copyright {
+    color: lightgrey;
+    font-size: 10px;
+    margin-left: 150px;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .footer-logo, .copyright {
+        margin-left: 0;  
+    }
+
+    .fp {
+        text-align: center;
+    }
+
+}
